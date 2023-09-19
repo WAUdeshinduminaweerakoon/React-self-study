@@ -7,7 +7,9 @@ Home() {
   return (
     <div>
       <h1>Home Page</h1>
-          <TopicBox/>
+          <TopicBox food="kottu"/>
+          <TopicBox food="rice"/>
+          <TopicBox food="cake"/>
           <Content/>
     </div>
   )

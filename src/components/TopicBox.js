@@ -1,19 +1,22 @@
 import React from 'react'
 import './topicbox.css'
 
-export default function TopicBox()  {
+export default function TopicBox(props)  {
     // const topic = "My Favourite food Kuttu";
     // const item = "and rice"
-    const a = 10;
-    const b = 26;
-    const c = a+b;
+    // const a = 10;
+    // const b = 26;
+    // const c = a+b;
+
  
 
   return (
     <div>
         <div className="topicBox">
             {/* <span className='text'>{topic} {item}</span> */}
-            <span className='text'>{c}{alert("hellow")}</span>
+            {/* <span className='text'>{c}{alert("hellow")}</span> */}
+
+            <span className='text'>my favorite food is {props.food}</span>
         </div>
     </div>
   )
