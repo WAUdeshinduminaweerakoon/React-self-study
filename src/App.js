@@ -1,12 +1,12 @@
 
 import './App.css';
-import PartOne from './components/PartOne';
+// import PartOne from './components/PartOne';
+import Home from './Pages/Home';
 
 function App() {
   return (
     <div className="App">
-     <h1>This is my react project</h1>
-     <PartOne/>
+     <Home/>
     </div>
   );
 }

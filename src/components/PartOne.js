@@ -2,7 +2,9 @@ import React from 'react'
 
 export default function PartOne() {
   return (
-    <div>This is my Components</div>
+    <div>
+        <h2>This is my Components</h2>
+    </div>
   )
 }
   
