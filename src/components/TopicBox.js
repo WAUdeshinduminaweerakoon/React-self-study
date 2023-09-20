@@ -16,7 +16,10 @@ export default function TopicBox(props)  {
             {/* <span className='text'>{topic} {item}</span> */}
             {/* <span className='text'>{c}{alert("hellow")}</span> */}
 
-            <span className='text'>my favorite food is {props.food}</span>
+            <span className='text'>my favorite food is {props.food} the price
+            is {props.price}
+            </span>
+            {props.children}
         </div>
     </div>
   )

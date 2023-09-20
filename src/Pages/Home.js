@@ -7,9 +7,17 @@ Home() {
   return (
     <div>
       <h1>Home Page</h1>
-          <TopicBox food="kottu"/>
+          {/* <TopicBox food="kottu"/>
           <TopicBox food="rice"/>
-          <TopicBox food="cake"/>
+          <TopicBox food="cake"/> */}
+          <TopicBox food="kottu" price="250">
+            <span> This is description</span>
+          </TopicBox>
+          <TopicBox food="rice" price="350">
+            <button>This is a button</button>
+          </TopicBox>
+          <TopicBox food="cake" price="550"/>
+
           <Content/>
     </div>
   )
