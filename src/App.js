@@ -1,13 +1,26 @@
 
 import './App.css';
-// import PartOne from './components/PartOne';
+
 import Home from './Pages/Home';
+import { BrowserRouter as Router,Routes, Route  } from 'react-router-dom';
+import About from './Pages/About';
+import Contact from './Pages/Contact';
+
 
 function App() {
   return (
-    <div className="App">
-     <Home/>
-    </div>
+    <Router>
+      <div>
+        <Routes>
+            <Route exact path='/' element={< Home />}></Route>
+            <Route exact path='/About' element={< About />}></Route>
+            <Route path='/Contact' element={<Contact/>}></Route>
+              
+           
+            
+      </Routes>
+      </div>
+   </Router>
   );
 }
 

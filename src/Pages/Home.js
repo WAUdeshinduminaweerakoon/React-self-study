@@ -1,6 +1,6 @@
 import React from 'react'
-import TopicBox from '../components/TopicBox'
-import Content from '../components/Content'
+// import TopicBox from '../components/TopicBox'
+// import Content from '../components/Content'
 
 export default function 
 Home() {
@@ -10,7 +10,7 @@ Home() {
           {/* <TopicBox food="kottu"/>
           <TopicBox food="rice"/>
           <TopicBox food="cake"/> */}
-          <TopicBox food="kottu" price="250">
+           {/*<TopicBox food="kottu" price="250">
             <span> This is description</span>
           </TopicBox>
           <TopicBox food="rice" price="350">
@@ -18,7 +18,11 @@ Home() {
           </TopicBox>
           <TopicBox food="cake" price="550"/>
 
-          <Content/>
+          <Content/> */}
+
+
+
+
     </div>
   )
 }
